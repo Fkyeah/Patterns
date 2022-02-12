@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{700421A6-0D22-4188-9041-857BAECC2468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{9BCABD44-EC16-47A0-A2AC-CDBD9CEB52AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{9BCABD44-EC16-47A0-A2AC-CDBD9CEB52AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{9905D2F9-152C-4390-9878-998B21D61118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9BCABD44-EC16-47A0-A2AC-CDBD9CEB52AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCABD44-EC16-47A0-A2AC-CDBD9CEB52AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCABD44-EC16-47A0-A2AC-CDBD9CEB52AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9905D2F9-152C-4390-9878-998B21D61118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9905D2F9-152C-4390-9878-998B21D61118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9905D2F9-152C-4390-9878-998B21D61118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9905D2F9-152C-4390-9878-998B21D61118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
