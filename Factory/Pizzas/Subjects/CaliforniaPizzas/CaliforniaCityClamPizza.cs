@@ -1,8 +1,9 @@
 ﻿using Factory.Pizzas.Base;
+using System;
 
 namespace Factory.Pizzas.Subjects.CaliforniaPizzas
 {
-    public class GreekPizza : CaliforniaPizza
+    public class CaliforniaCityClamPizza : CaliforniaCityPizza
     {
     }
 }

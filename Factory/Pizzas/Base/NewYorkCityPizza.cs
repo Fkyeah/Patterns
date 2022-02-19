@@ -3,7 +3,7 @@ using System;
 
 namespace Factory.Pizzas.Base
 {
-    public abstract class NewYorkPizza : IPizza
+    public abstract class NewYorkCityPizza : IPizza
     {
         public virtual void Bake()
         {

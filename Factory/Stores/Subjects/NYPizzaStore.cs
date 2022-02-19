@@ -12,15 +12,15 @@ namespace Factory.Stores.Subjects
             switch (type)
             {
                 case PizzaType.Cheese:
-                    return new CheesePizza();
+                    return new NYCityCheesePizza();
                 case PizzaType.Greek:
-                    return new GreekPizza();
+                    return new NYCityGreekPizza();
                 case PizzaType.Pepperoni:
-                    return new PepperoniPizza();
+                    return new NYCityPepperoniPizza();
                 case PizzaType.Clam:
-                    return new ClamPizza();
+                    return new NYCityClamPizza();
                 case PizzaType.Veggie:
-                    return new VeggiePizza();
+                    return new NYCityVeggiePizza();
                 default:
                     return null;
             }

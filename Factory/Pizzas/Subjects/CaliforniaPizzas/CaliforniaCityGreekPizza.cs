@@ -2,7 +2,7 @@
 
 namespace Factory.Pizzas.Subjects.CaliforniaPizzas
 {
-    public class VeggiePizza : CaliforniaPizza
+    public class CaliforniaCityGreekPizza : CaliforniaCityPizza
     {
     }
 }
