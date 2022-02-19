@@ -1,4 +1,5 @@
-﻿using Factory.Base.Enums;
+﻿using Factory.Pizzas.Base.Enums;
+using Factory.Stores.Base;
 using System;
 
 namespace Factory

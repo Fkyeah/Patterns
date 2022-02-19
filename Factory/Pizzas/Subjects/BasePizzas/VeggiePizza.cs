@@ -1,8 +1,8 @@
-﻿using Factory.Base.Interfaces;
+﻿using Factory.Pizzas.Base.Interfaces;
 
-namespace Factory.Subjects
+namespace Factory.Pizzas.Subjects.BasePizzas
 {
-    public class CheesePizza : IPizza
+    public class VeggiePizza : IPizza
     {
         public void Bake()
         {

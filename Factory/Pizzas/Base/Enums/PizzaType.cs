@@ -1,4 +1,4 @@
-﻿namespace Factory.Base.Enums
+﻿namespace Factory.Pizzas.Base.Enums
 {
     public enum PizzaType
     {
