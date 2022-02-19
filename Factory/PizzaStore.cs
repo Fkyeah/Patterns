@@ -14,11 +14,17 @@ namespace Factory
                 case PizzaType.Cheese:
                     pizza = new CheesePizza();
                     break;
-                case PizzaType.Greek:
-                    pizza = new GreekPizza();
-                    break;
+                //case PizzaType.Greek:
+                //    pizza = new GreekPizza();
+                //    break;
                 case PizzaType.Pepperoni:
                     pizza = new PepperoniPizza();
+                    break;
+                case PizzaType.Clam:
+                    pizza = new ClamPizza();
+                    break;
+                case PizzaType.Veggie:
+                    pizza = new VeggiePizza();
                     break;
                 default:
                     return null;
