@@ -11,11 +11,11 @@ namespace Factory
         {
             PizzaStore newYorkStore = new NYPizzaStore();
             var newYorkPizza = newYorkStore.OrderPizza(PizzaType.Cheese);
-            Console.WriteLine($"Now was ordered {newYorkPizza.GetType()}");
+            Console.WriteLine($"Now was ordered {newYorkPizza.Name}");
 
             PizzaStore chicagoStore = new ChicagoPizzaStore();
             var chicagoPizza = chicagoStore.OrderPizza(PizzaType.Greek);
-            Console.WriteLine($"Now was ordered {chicagoPizza.GetType()}");
+            Console.WriteLine($"Now was ordered {chicagoPizza.Name}");
 
             Console.ReadKey();
         }
