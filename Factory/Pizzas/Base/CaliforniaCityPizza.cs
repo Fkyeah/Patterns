@@ -1,28 +1,22 @@
-﻿using Factory.Pizzas.Base.Interfaces;
-using System;
+﻿using System;
 
 namespace Factory.Pizzas.Base
 {
-    public abstract class CaliforniaCityPizza : IPizza
+    public abstract class CaliforniaCityPizza : BasePizza
     {
-        public virtual void Bake()
+        public override void Bake()
         {
-            Console.WriteLine(string.Format("California {0} bakes...", GetType()));
+            Console.WriteLine(string.Format("California {0} bakes...", Name));
         }
 
-        public virtual void Box()
+        public override void Box()
         {
-            Console.WriteLine(string.Format("California {0} boxing...", GetType()));
+            Console.WriteLine(string.Format("California {0} boxing...", Name));
         }
 
-        public virtual void Cut()
+        public override void Cut()
         {
-            Console.WriteLine(string.Format("California {0} sliced...", GetType()));
-        }
-
-        public virtual void Prepare()
-        {
-            Console.WriteLine(string.Format("California {0} prepares...", GetType()));
+            Console.WriteLine(string.Format("California {0} sliced...", Name));
         }
     }
 }
