@@ -8,6 +8,7 @@ namespace Factory.Pizzas.Base.Interfaces
 {
     public interface IPizza
     {
+        string Name { get; }
         void Prepare();
         void Cut();
         void Box();

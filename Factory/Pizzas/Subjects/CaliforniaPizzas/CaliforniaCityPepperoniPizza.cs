@@ -15,7 +15,7 @@ namespace Factory.Pizzas.Subjects.CaliforniaPizzas
         private IPizzaIngredientFactory _ingredientFactory;
         public override void Prepare()
         {
-            Console.WriteLine("Preparing ", Name);
+            Console.WriteLine(string.Format("Preparing {0}", Name));
             _dough = _ingredientFactory.CreateDough();
             _sauce = _ingredientFactory.CreateSauce();
             _clams = _ingredientFactory.CreateClams();
