@@ -1,34 +1,22 @@
 ﻿using Factory.Base.Enums;
 using Factory.Base.Interfaces;
+using Factory.Factories;
 using Factory.Subjects;
 
 namespace Factory
 {
     public class PizzaStore
     {
+        public PizzaStore(SimplePizzaFactory factory)
+        {
+            _factory = factory;
+        }
+
+        private SimplePizzaFactory _factory;
+
         public IPizza OrderPizza(PizzaType type)
         {
-            IPizza pizza;
-            switch (type)
-            {
-                case PizzaType.Cheese:
-                    pizza = new CheesePizza();
-                    break;
-                //case PizzaType.Greek:
-                //    pizza = new GreekPizza();
-                //    break;
-                case PizzaType.Pepperoni:
-                    pizza = new PepperoniPizza();
-                    break;
-                case PizzaType.Clam:
-                    pizza = new ClamPizza();
-                    break;
-                case PizzaType.Veggie:
-                    pizza = new VeggiePizza();
-                    break;
-                default:
-                    return null;
-            }
+            IPizza pizza = _factory.CreatePizza(type);
 
             pizza.Prepare();
             pizza.Bake();
