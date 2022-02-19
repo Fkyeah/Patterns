@@ -2,5 +2,6 @@
 - [Стратегия](./Strategy/Strategy.md)
 - [Наблюдатель](./Observer/Observer.md)
 - [Декоратор](./Decorator/Decorator.md)
-- [Фабричный метод](./Factory/Factory.md)
+- [Фабричный метод](./Factory/FactoryMethod.md)
+- [Абстрактная фабрика](./Factory/AbstractFactory.md)
 
