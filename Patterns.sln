@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{9905D2F9-152C-4390-9878-998B21D61118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{B3D88F45-090C-4A84-9B1A-C3864AA5EF07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{B3D88F45-090C-4A84-9B1A-C3864AA5EF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{2B66A44A-1CA7-4253-8058-6252FE897247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B3D88F45-090C-4A84-9B1A-C3864AA5EF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3D88F45-090C-4A84-9B1A-C3864AA5EF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3D88F45-090C-4A84-9B1A-C3864AA5EF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B66A44A-1CA7-4253-8058-6252FE897247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B66A44A-1CA7-4253-8058-6252FE897247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B66A44A-1CA7-4253-8058-6252FE897247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B66A44A-1CA7-4253-8058-6252FE897247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

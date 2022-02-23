@@ -4,4 +4,4 @@
 - [Декоратор](./Decorator/Decorator.md)
 - [Фабричный метод](./Factory/FactoryMethod.md)
 - [Абстрактная фабрика](./Factory/AbstractFactory.md)
-
+- [Одиночка](./Singleton/Singleton.md)
