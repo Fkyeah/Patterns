@@ -5,3 +5,4 @@
 - [Фабричный метод](./Factory/FactoryMethod.md)
 - [Абстрактная фабрика](./Factory/AbstractFactory.md)
 - [Одиночка](./Singleton/Singleton.md)
+- [Прототип](./Prototype/Prototype.md)
