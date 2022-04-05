@@ -1,6 +1,6 @@
 ﻿namespace Builder.Components
 {
-    public class Addictives
+    public class Additives
     {
         public string Name { get; set; }
     }

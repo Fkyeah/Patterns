@@ -7,7 +7,7 @@ namespace Builder.Main
     {
         public Flour Flour { get; set; }
         public Salt Salt { get; set; }
-        public Addictives Addictives { get; set; }
+        public Additives Additives { get; set; }
 
         public override string ToString()
         {
@@ -19,8 +19,8 @@ namespace Builder.Main
             if (Salt != null)
                 sb.Append("Соль \n");
 
-            if (Addictives != null)
-                sb.Append(string.Format("Добавки: {0} \n", Addictives.Name));
+            if (Additives != null)
+                sb.Append(string.Format("Добавки: {0} \n", Additives.Name));
 
             return sb.ToString();
         }
