@@ -6,4 +6,4 @@
 - [Абстрактная фабрика](./Factory/AbstractFactory.md)
 - [Одиночка](./Singleton/Singleton.md)
 - [Прототип](./Prototype/Prototype.md)
-- [Строитель](./Prototype/Builder.md)
+- [Строитель](./Builder/Builder.md)
